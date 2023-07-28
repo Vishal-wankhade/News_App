@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    background-image: url("./images/bg-w.jpg");
+    height: 100%;
+    width: 100%;
+    margin:0px;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    color:white;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    height: 35%;
+    width:35%;
+    margin-top:30px;
+}

@@ -1,0 +1,41 @@
+.menu{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.14);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2px);
+-webkit-backdrop-filter: blur(2px);
+border: 1px solid rgba(255, 255, 255, 0.87);
+    height: 70px;
+}
+.list{
+    width: 300px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    color:#edf2f4;
+    font-weight: bolder;
+}
+/* .list li{
+    background: #edf2f4;
+    color:black;
+    padding: 2px;
+} */
+.name{
+    color:#edf2f4;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.gif-w{
+ height:60px;
+ width: 60px;
+}
+.gif-w img{
+    height: 100%;
+    width: 100%;
+}

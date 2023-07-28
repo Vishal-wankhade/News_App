@@ -1,0 +1,10 @@
+/* .wrap{
+    height:90%;
+    width: 700px;
+    display: flex;
+} */
+.m-box{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+}
